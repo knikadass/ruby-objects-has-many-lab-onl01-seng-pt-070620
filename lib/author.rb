@@ -9,14 +9,10 @@ class Author
   end
 
   def posts
-  Posts
-  end
-
-
-Song.all.select do |song|
+  Post.all.select do |post|
     song.artist == self
-   end
   end
+end
 
   def self.post_count
     @@post_count
