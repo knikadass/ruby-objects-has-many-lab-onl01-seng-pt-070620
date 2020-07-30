@@ -14,3 +14,9 @@ class Post
     end
   end
 end
+
+def self.all
+    @@all
+  end
+end
+
